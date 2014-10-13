@@ -42,7 +42,10 @@ Ext.define('DogFood.view.main.Main', {
         xtype: 'tabpanel',
         items:[{
             title: 'Sessions',
-            xtype: 'sessions-grid'
+            xtype: 'sessions-grid',
+            bind: {
+                store: '{sessions}'
+            }
         }]
     }]
 });
