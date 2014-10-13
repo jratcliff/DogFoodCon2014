@@ -9,7 +9,8 @@ Ext.define('DogFood.view.main.Main', {
     extend: 'Ext.container.Container',
     requires: [
         'DogFood.view.main.MainController',
-        'DogFood.view.main.MainModel'
+        'DogFood.view.main.MainModel',
+        'DogFood.view.sessions.Grid'
     ],
 
     xtype: 'app-main',
@@ -40,8 +41,8 @@ Ext.define('DogFood.view.main.Main', {
         region: 'center',
         xtype: 'tabpanel',
         items:[{
-            title: 'Tab 1',
-            html: '<h2>Content appropriate for the current navigation.</h2>'
+            title: 'Sessions',
+            xtype: 'sessions-grid'
         }]
     }]
 });
