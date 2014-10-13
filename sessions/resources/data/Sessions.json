@@ -1,0 +1,229 @@
+{
+  "results": [
+    {
+      "id": "DDC83858-6FDE-467B-8B70-3D38EBEC3C1B",
+      "track": ".Net2",
+      "title": "zAdd Some DDD To Your ASP.NET MVC, OK",
+      "description": "Improve the design of your ASP.NET MVC Solution by applying some principles and best practices from Domain-Driven Design.",
+      "speaker": "Steve Smith",
+      "level": 1
+    },
+    {
+      "id": "B61006D2-3738-421A-A151-049C3D7580FD",
+      "track": ".Net2",
+      "title": "Creating a Plug-in Architecture in .NET",
+      "description": "Wouldn't it be great to extend your application by just dropping in a DLL? Plug-in architectures make it possible, and I™ll show you how to make it easy. I™ll lead you through a quick refresher on dependency injection and then show you how to build onto that foundation to create a plug-in architecture. During a walk-through of a sample MVC application, we will discuss plug-in strategies and frameworks, as well as how to make decisions on where the plug-in points should go.",
+      "speaker": "Ondrej Balas",
+      "level": 1
+    },
+    {
+      "id": "43427457-5F28-4F11-8538-159544F4BE9B",
+      "track": ".Net",
+      "title": "Beyond \"Hello World\", A SignalR Intranet Communication Case Study",
+      "description": "In today's real-time, connected world, our ability to engage and respond to immediate events in our personal lives has become commonplace.Â  Most corporate intranet portals, however, are behind the curve, and users thirst for the ability to receive information quickly and efficiently.Â  In fact, we have the tools to offer them a great real-time engagement experience.Â  Starting with a global real-time notification framework, Nationwide is driving new business opportunities by enabling its corporate intranet to provide these same experiences to its more than 30 thousand associates across the country.    The Nationwide Notifications platform was built using ASP.NET and SignalR for real-time communications. In this case study, we will discuss the technological considerations, architecture, and challenges of delivering this feature set and what we experienced in integrating it within an existing SharePoint intranet portal. At the end of this presentation, you will have a more informed understanding of what it takes to bring SignalR into your own projects.",
+      "speaker": "Mario Vargas; Greg Sika",
+      "level": 0
+    },
+    {
+      "id": "23A78E19-1AAE-4E0F-A4B5-4DFD9B3E1E60",
+      "track": ".Net",
+      "title": "World War D! Surviving the Apocolypse",
+      "description": "Disaster strikes! The company is losing money by the minute as company™s most valuable communication asset, it™s website, is down, what do you do? Hopefully, you have disaster recovery plans in place but are they enough? This talk will talk about the problem of disasters and the solutions of High Availability and Disaster recovery plans and the differences between the two. We will also discuss your role as a developer in a HA/DR plan and what input you should have in the discussion and the process of figuring out how create a plan, how figure out disaster scenarios in your application resides in, and how to test the plan.",
+      "speaker": "Brett Whittington",
+      "level": 0
+    },
+    {
+      "id": "A77A4F1D-C886-4399-8F2E-A63463AF3886",
+      "track": ".Net2",
+      "title": "Ten Practical Tips for Automated Testing of Web Applications",
+      "description": "\"60 minutes, ten takeaways for making solid functional User Interface tests of web applications. In this session we™ll quickly cover the fundamentals of how automated web functional tests work, then dive into practical solutions you™ll be able use on a daily basis. You™ll see how to create maintainable tests using the Page Object Pattern, handle complex asynchronous (timing!) situations, and deal with common controls like complex grids, trees, calendars, and a number of other interesting automation scenarios.  You™ll leave this session armed with knowledge you can immediately apply to make your automated functional tests faster, more maintainable, and easier to write!    \"",
+      "speaker": "Jim Holmes",
+      "level": 0
+    },
+    {
+      "id": "6543FEE1-57AA-4671-BA65-5BFC07AE54B9",
+      "track": ".Net",
+      "title": "Pinochle, Dungeons & Dragons, and Software Usability",
+      "description": "Sure it's great that your software functions, but how is the User Experience? It's easy to forget that usability needs to be just as good as the code, if not better. So what does that have to do with trump suits and slaying goblins? There is a corollary between they stuff you do for fun, and the stuff you do professionally. Designing with a mind for usability becomes a hurdle when absorbed in the details of development, be it code or dice probabilities. The difference is that games don't do anything but get used: a game you can't play is a non-functioning one. Whereas software actually does stuff, and the user's experience is only one small part of a large set of requirements. So we cut corners. This talk uses game design to help describe a methodology for maintaining meaningful usability, and making your software not only function, but have a great user experience.",
+      "speaker": "Patrick Roach",
+      "level": 0
+    },
+    {
+      "id": "1DF4446D-7607-4FF5-9901-AEE94E8C7906",
+      "track": ".Net",
+      "title": "MongoBaseball.NET",
+      "description": "You like baseball, you like Mongo and you like .NET.  Why not put them all together and achieve a zen-like state of being completely in touch with your data!  This session will walk through some familiar and not-so-familiar baseball statistics and how you can crunch them using Mongo's aggregation pipeline.  We'll talk about Mongo's aggregation pipeline, the different components of the pipeline, and how they can be used together to calculate some SABR metric statistics.  This talk will be mostly code and will alternate between the Mongo shell and code using the C# driver.",
+      "speaker": "David Hoerster",
+      "level": 0
+    },
+    {
+      "id": "ED5AA23A-D5EC-42E5-9324-20F58B615610",
+      "track": ".Net",
+      "title": "Introduction to Xamarin Forms",
+      "description": "An overview of building iOS, Android and Windows Phone apps using Xamarin Forms. Learn how to achieve 80% code reuse across all platforms and leverage the power of C# from developers that have been using Xamarin Forms on a real-world client project since it's release.",
+      "speaker": "Eric Polerecky",
+      "level": 2
+    },
+    {
+      "id": "71240137-8EDA-4454-8294-D6E6BC8F1711",
+      "track": ".Net",
+      "title": "Getting Started with AngularJS + WebApi",
+      "description": "In this session we will provide a gentle introduction to the increasingly popular AngularJS JavaScript framework.  Binding, filters, modules, controllers, and culminating with hooking up to an ASP.NET Web API controller with the $http service.",
+      "speaker": "Eric Wise",
+      "level": 0
+    },
+    {
+      "id": "92D86E9B-2406-4B0D-90BE-04D429711001",
+      "track": "ALM",
+      "title": "Your Flying Car is Ready: Programming Tools of the Future, Today!",
+      "description": "What if simply writing unit tests was enough to produce a program which makes them pass? What if your compiler could guarantee that your OpenSSL replacement follows the TLS specification to the letter? What if you could write a test which showed that your code had no unintentional behavior?    Microsoft Research is well known for its contributions to Kinect, F#, the Entity Framework, and more, but it's also the home of a number of programming tools which do things which many programmers would consider surprising, if not impossible. But they work, and in this session you'll see them in action.    I'll use the Z3 theorem prover to generate working programs from specifications alone. Sound impractical? I'll explain how it is used to make Hyper-V and Windows Azure secure. I'll show the F7 specification language for F# and relate how its authors used it to not only produce a TLS implementation which probably follows the spec, but to also identify dangerous holes in the TLS specification itself. You'll learn how Amazon uses the TLA+ specification language to prove that there are no edge cases in its internal protocols.    Far from being research toys, these tools are in daily use in cases where stability, security, and reliability of code matters most. Can they help with your hardest problems? You might be surprised!",
+      "speaker": "Craig Stuntz",
+      "level": 2
+    },
+    {
+      "id": "2A9EC083-77EC-4C89-B143-54BBC5700A27",
+      "track": "Azure, SOA",
+      "title": "10 Ways to Guarantee Your Azure Project Will Fail!",
+      "description": "There are good projects, and there are bad projects.  We can often learn more from the bad projects as they show us what not to do.  In this session we™ll explore scenarios from real customer engagements that didn™t go according to plan.  We™ll take a look at what not to do when it comes to using Cloud Services, storage, Virtual Machines, Virtual Networking, and more.  Looking at the unsuccessful architecture and development patterns of others can help us not repeat the same mistakes in future cloud projects.",
+      "speaker": "Michael Collier",
+      "level": 0
+    },
+    {
+      "id": "F232531F-9A5A-4A66-941F-E4D370F1B326",
+      "track": "Azure, SOA",
+      "title": "Inside Azure API Management",
+      "description": "Building APIs is fun! The APIs we build can light up an unknown number of devices and services.  Be-fore we can light up those scenarios, there often needs to be some guidance and management features put in place.  Aspects like developer-level documentation, pricing tiers, security, and usage analytics are often vital to an API. Sure, we could build all those features from scratch “ but why? In this session we™ll dive into several such features, and more, that are available with Azure API Management.",
+      "speaker": "Michael Collier",
+      "level": 0
+    },
+    {
+      "id": "58345D84-B310-4710-9FEB-B12CB1BB2775",
+      "track": "Azure, SOA",
+      "title": "A lap around the Azure API Management Service",
+      "description": "The new Azure API Management service allows API providers to easily publish and manage their APIs. Using this service, providers can reach more API consumers and facilitate how these consumers use the providers' APIs.    In this session you will get a tour of the API management service features like:  - API Management Dashboard  - Developer console  - Policy manager  - Analytics    Please join us to learn how you can leverage the features listed above to increase the adoption of your APIs.",
+      "speaker": "Raul Camacho",
+      "level": 0
+    },
+    {
+      "id": "CAEF1591-CE43-4A34-9369-EBC5169687A9",
+      "track": "ALM",
+      "title": "Visual Studio 2013 for ALM and .Net Development",
+      "description": "Visual Studio 2013 is a monumental leap forward for Microsoft development. There are so many useful enhancements and features that each could be their own session. This session will give an overview of the new features, then focus on those related to Application Lifecycle Management, Mobile, Team Foundation Server 2013, and .Net Development. From project planning, to mobile testing, to inline enhancements via CodeLens and Peek, this session will show developers and team leads why Visual Studio 2013 is worth upgrading to immediately!",
+      "speaker": "Tim Ferro",
+      "level": 0
+    },
+    {
+      "id": "D66671B4-FF98-49D2-AFD6-EFD71E674DF8",
+      "track": "Azure, SOA",
+      "title": "Messaging Patterns in MIcrosoft Azure",
+      "description": "There are numerous reasons why asynchronous messaging should be introduced in applications, as well as many approaches in incorporating messaging subsystems.  In some cases intensive workloads need to be pushed to back end processing, or perhaps specialized (and perhaps expensive) resources need to",
+      "speaker": "Michael Wood",
+      "level": 1
+    },
+    {
+      "id": "3E1B0B7C-CB87-4B2F-A99F-AF2F8CA83C7B",
+      "track": "Azure, SOA",
+      "title": "Using Sencha to Build Powerful Azure Apps",
+      "description": "In this session we'll cover the Sencha Extensions for Microsoft Azure and demonstrate how to build powerful business applications powered by Sencha and Microsoft Azure.",
+      "speaker": "Art Kay",
+      "level": 0
+    },
+    {
+      "id": "97324EAF-02DF-45F6-B026-B3AAD1E3453D",
+      "track": "Azure, SOA",
+      "title": "Planning a Scalable End-to-End Multi-Tier Application on Microsoft Azure Websites",
+      "description": "Cloud doesn't mean compromises anymore! Running a super high-traffic website is no longer only within the abilities of on-prem solutions. With the latest features in Azure Websites, you can span your content dynamically across high capacity compute resources, including CPU Cores, memory and storage, and easily deal with massive amounts of traffic. This session will explore the process of scaling a web-site from small to large to very large, as well as the unique challenges, proven solutions and architecture decisions that enable running websites at massive scale.",
+      "speaker": "Byron Tardif",
+      "level": 2
+    },
+    {
+      "id": "48E7E59A-3F7F-4CD8-9464-44B4B119E4FA",
+      "track": "ALM",
+      "title": "How to effectively scale agile",
+      "description": "Agile methodology provides many benefits for aligning the development team with the business - resulting in great value to the business when used effectively. Large teams have a difficult time adopting agile techniques often leading people to assume this is a failure in Agile.  In this session, Bill will explore techniques that you can use to make agile techniques work in large scale projects including projects that span timezones.",
+      "speaker": "Bill Curry",
+      "level": 0
+    },
+    {
+      "id": "91CD505D-7671-4927-A658-BA7B92769A20",
+      "track": "ALM",
+      "title": "Use Cloud-Based Load Testing Service and Application Insights to Find Scale and Performance Bottlenecks",
+      "description": "Do you find it painful to set up infrastructure to run performance and load tests? Do you think load testing is an expensive affair? Do you have a need for testing your service with a large burst load just before your big launch? Do you want to get a 360 degree of the performance and availability of your application when tested under load conditions? In this session, see how you can use the cloud-based load testing service provided by Visual Studio Online in conjunction with the monitoring and analytics capabilities of Application Insights to quickly run load tests and fix performance bottlenecks.",
+      "speaker": "Randy Pagels",
+      "level": 1
+    },
+    {
+      "id": "C5F75C49-3E6C-4068-AC48-9D1A53312535",
+      "track": "ALM",
+      "title": "Start Up and Git Done: Using Visual Studio Online",
+      "description": "Want to change the world? Make a lot of money? Preferably both? For a limited time only, I'm offering a few lucky individuals the opportunity to invest in my exciting new startup! The official details are pretty top-secret right now, but I can share with you our competitive advantage: the cloud-based Visual Studio Online. My business team loves the Agile management features, and my developers commit like mad with the freedom of the Git distributed version control system. In this exclusive presentation for accredited investors, I'll show you how we use VSO with Git to plan, build, test, and deliver our product. (Disclaimer: this session may contain parody and/or satire.)",
+      "speaker": "Jeff McKenzie",
+      "level": 0
+    },
+    {
+      "id": "38CC3A83-13A0-4B5B-AB4E-72380029ECA3",
+      "track": "Sharepoint",
+      "title": "Application Remediation: Moving Your Old Applications to SharePoint",
+      "description": "Old applications, running on older servers, are still the backbone of many businesses and business processes.  This session examines strategies and techniques for moving legacy applications into SharePoint and the cloud.",
+      "speaker": "Jason Barr",
+      "level": 1
+    },
+    {
+      "id": "94CEE7C6-9151-45B5-842E-AF56BAB3CF2D",
+      "track": "Sharepoint",
+      "title": "Building an Extranet Using Office 365",
+      "description": "One of the first discussions that usually arises after completing implementation of a corporate Intranet portal based on SharePoint is: ï¿½How can we make this information available to our external partners too?ï¿½  There are of course technical issues to be solved when trying to share any web based sys",
+      "speaker": "Paul Stork",
+      "level": 0
+    },
+    {
+      "id": "3E645808-FA85-4C29-B7CC-87AC18AFECDF",
+      "track": "Lync",
+      "title": "Collaborate Easier with Polycom RealConnect for Microsoft Lync",
+      "description": "\"Join renowned Lync blogger Jeff Schertz (Microsoft MVP and Polycom Solutions Architect) as he presents the new Polycom RealConnectâ„¢ for Microsoft Lync solution that seamlessly brings together Lync and non-Lync endpoints to connect to an Outlook scheduled call using normal dialing methods. The Polycom RealConnect technology leverages existing Lync Server infrastructure as well as Polycom RealPresence Platform, providing a great user experience and eliminating end user frustration in trying to determine how to connect with people across an organization who may have varying devices. Jeff will present this new solution for Microsoft Lync in an interactive whiteboard session.     \"",
+      "speaker": "Jeff Schertz",
+      "level": 0
+    },
+    {
+      "id": "9D87E7FF-4349-4E12-9BA3-B209AD3D0760",
+      "track": "Microsoft Services",
+      "title": "Driving value with Microsoft Premier Services in your IT organization for on premise and O365 technology",
+      "description": "Microsoft Premier Services helps achieve maximum return on the investment made in IT, while driving value for the business. Premier Services partners with IT organizations to provide world class 24/7 support for increased uptime and performance. However, more than an insurance policy for break/fix incidents, you will discover in this session that by partnering with Premier Services and taking advantage of our Proactive Service Offerings, your IT organization can more effectively implement and maintain the environment. Historically, Premier Services has centered around customers on premise technology needs, however we now offer the same tailored approach with Premier Services and Support for your O365 environment as well. Come learn what Premier Services can do for both your on premise and cloud environments, and how you can maximize your investment in IT.",
+      "speaker": "Andrew Sloan",
+      "level": 0
+    },
+    {
+      "id": "6BAD1A3D-1A84-4D04-9F93-E33B5718B4C5",
+      "track": "PowerShell",
+      "title": "Managing SharePoint Anywhere with Windows PowerShell",
+      "description": "\"With the growing adoption of Office 365 and SharePoint Online and the continued prevalence of SharePoint on-premises, it™s becoming more difficult to manage both environments in an automated fashion. While SharePoint Online does have native support for Windows PowerShell, there are very few cmdlets to manage the sites and site contents. SharePoint on-premises gives us well over 700 cmdlets, but it still doesn™t answer every situational scenario “ leaving gaps in functionality which can be filled by scripters.    In this demo-heavy session, focused on both the developer AND the administrator “ you™ll see how you can use one shell to manage both scenarios (on-premises and Office 365). Demonstrations will focus on building PowerShell Scripts and Advanced Functions for both target environments, and by the end of the session you™ll be ready to start Managing SharePoint Anywhere with PowerShell.\"",
+      "speaker": "Ryan Dennis",
+      "level": 1
+    },
+    {
+      "id": "35B2369E-C26B-4196-9E98-E88EDAE7A52B",
+      "track": "PowerShell",
+      "title": "Managing Systems with PowerShell DSC, OneGet, and PSGet",
+      "description": "During this session,  we will explore the Desired State Configuration feature and managing systems with \"infrastructure as code.\" We'll also take a look at the \"why\" and \"how\" of the new PowerShell v5 modules: OneGet and PSGet!",
+      "speaker": "Trevor Sullivan",
+      "level": 1
+    },
+    {
+      "id": "D9EA43B5-B96D-4F74-8846-A50205F2E224",
+      "track": "PowerShell",
+      "title": "PowerShell for Your SharePoint Tool Belt",
+      "description": "PowerShell is becoming the command line interface for all Microsoft server products including SharePoint. If you haven't started using PowerShell you will want to add it to your set of tools in your tool belt.  In this demo heavy session we will show tips and tricks for using the PowerShell console and ISE, dive into recursing through all sites in a farm, create reports, and create a secure remote connection with whitelisted commands through constrained endpoints.  We will also cover some of the more intermediate to advanced techniques available within PowerShell that will improve your work efficiency.  This session is targeted to administrators and developers and assumes a basic familiarity with PowerShell.",
+      "speaker": "Brian T. Jackett",
+      "level": 1
+    },
+    {
+      "id": "4C8F315F-A02F-433B-8F6F-36F39E5A5BFA",
+      "track": "PowerShell",
+      "title": "Reduce Server Outages Using PowerShell Desired State Configuration",
+      "description": "Ever configured a server only to find someone changed it? Ever tracked an outage back to an unauthorized change? Tired of manually configuring new server builds? Come learn how PowerShell Desired State Configuration can help you save time building servers and reduce outages.",
+      "speaker": "Ashley McGlone",
+      "level": 1
+    }
+  ],
+  "count": 28
+}
