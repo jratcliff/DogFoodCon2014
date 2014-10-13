@@ -18,6 +18,17 @@ Ext.define("DogFood.view.sessions.Grid",{
         ptype: 'rowediting'
     }],
 
+    tbar: [
+        {
+            text    : 'Add',
+            handler : 'onAddButtonClick'
+        },
+        {
+            text    : 'Delete',
+            handler : 'onDeleteButtonClick'
+        }
+    ],
+
     columns: [
         {
             header      : 'Track',
