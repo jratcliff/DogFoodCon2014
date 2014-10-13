@@ -5,7 +5,8 @@ Ext.define("DogFood.view.sessions.Grid",{
 
     requires: [
         'DogFood.view.sessions.GridModel',
-        'DogFood.view.sessions.GridController'
+        'DogFood.view.sessions.GridController',
+        'Ext.grid.plugin.RowEditing'
     ],
 
     controller: "sessions-grid",
@@ -13,31 +14,50 @@ Ext.define("DogFood.view.sessions.Grid",{
         type: "sessions-grid"
     },
 
+    plugins: [{
+        ptype: 'rowediting'
+    }],
+
     columns: [
         {
             header      : 'Track',
             dataIndex   : 'track',
-            flex        : 1
+            flex        : 1,
+            editor      : {
+                xtype: 'textfield'
+            }
         },
         {
             header      : 'Level',
             dataIndex   : 'level',
-            width       : 100
+            width       : 100,
+            editor      : {
+                xtype: 'textfield'
+            }
         },
         {
             header      : 'Title',
             dataIndex   : 'title',
-            flex        : 1
+            flex        : 1,
+            editor      : {
+                xtype: 'textfield'
+            }
         },
         {
             header      : 'Speaker',
             dataIndex   : 'speaker',
-            flex        : 1
+            flex        : 1,
+            editor      : {
+                xtype: 'textfield'
+            }
         },
         {
             header      : 'Description',
             dataIndex   : 'description',
-            flex        : 2
+            flex        : 2,
+            editor      : {
+                xtype: 'textfield'
+            }
         }
     ]
 });
