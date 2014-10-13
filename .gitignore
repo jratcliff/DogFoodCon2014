@@ -1,0 +1,8 @@
+# ignore the Sencha build folder and the bootstrap files since they are regenerated each time a build is done
+/build
+bootstrap.js
+bootstrap.json
+bootstrap.css
+
+# ignore the sass example css file since it is updated each time a build is done
+**/sass/example/example.css
