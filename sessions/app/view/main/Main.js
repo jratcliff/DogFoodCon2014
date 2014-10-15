@@ -11,7 +11,8 @@ Ext.define('DogFood.view.main.Main', {
         'DogFood.view.main.MainController',
         'DogFood.view.main.MainModel',
         'DogFood.view.sessions.Grid',
-        'DogFood.view.sessions.TrackCounts'
+        'DogFood.view.sessions.TrackCounts',
+        'Ext.plugin.Responsive'
     ],
 
     xtype: 'app-main',
@@ -29,15 +30,31 @@ Ext.define('DogFood.view.main.Main', {
         title       : 'Track Counts',
         xtype       : 'sessions-trackcounts',
         region      : 'west',
-        width       : 350,
+        flex        : 1,
         collapsible : true,
         split       : true,
         bind        : {
             store: 'SessionsByTrack'
+        },
+
+        // adding responsive functionality
+        plugins         : ['responsive'],
+        responsiveConfig: {
+            
+            // when app is 'wider' than it is tall, show chart in west region
+            wide: {
+                region  : 'west'
+            },
+            
+            // when app is 'taller' than it is wide, show chart in south region
+            tall: {
+                region  : 'south'
+            }
         }
     },{
         region: 'center',
         xtype: 'tabpanel',
+        flex: 2,
         items:[{
             title: 'Sessions',
             xtype: 'sessions-grid',
