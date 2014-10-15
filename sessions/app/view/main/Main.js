@@ -10,7 +10,8 @@ Ext.define('DogFood.view.main.Main', {
     requires: [
         'DogFood.view.main.MainController',
         'DogFood.view.main.MainModel',
-        'DogFood.view.sessions.Grid'
+        'DogFood.view.sessions.Grid',
+        'DogFood.view.sessions.TrackCounts'
     ],
 
     xtype: 'app-main',
@@ -25,18 +26,15 @@ Ext.define('DogFood.view.main.Main', {
     },
 
     items: [{
-        xtype: 'panel',
-        bind: {
-            title: '{name}'
-        },
-        region: 'west',
-        html: '<ul><li>This area is commonly used for navigation, for example, using a "tree" component.</li></ul>',
-        width: 250,
-        split: true,
-        tbar: [{
-            text: 'Button',
-            handler: 'onClickButton'
-        }]
+        title       : 'Track Counts',
+        xtype       : 'sessions-trackcounts',
+        region      : 'west',
+        width       : 350,
+        collapsible : true,
+        split       : true,
+        bind        : {
+            store: 'SessionsByTrack'
+        }
     },{
         region: 'center',
         xtype: 'tabpanel',
