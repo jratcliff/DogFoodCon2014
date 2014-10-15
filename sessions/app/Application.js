@@ -9,7 +9,7 @@ Ext.define('DogFood.Application', {
     name: 'DogFood',
 
     stores: [
-        // TODO: add global / shared stores here
+        'SessionsByTrack'
     ],
     
     launch: function () {
