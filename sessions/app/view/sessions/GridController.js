@@ -26,6 +26,29 @@ Ext.define('DogFood.view.sessions.GridController', {
         if (selection) {
             store.remove(selection);
         }
+    },
+
+    onSessionsStoreChange: function (store) {
+        var me          = this,
+            data        = [],
+            chartStore  = Ext.getStore('SessionsByTrack'),
+            groups      = store.getGroups(),
+            groupLen    = groups.length,
+            group,
+            i;
+
+        for (i = 0; i < groupLen; i++) {
+            group = groups.getAt(i);
+
+            if (group.getGroupKey() !== '') {
+                data.push({
+                    name  : group.getGroupKey(),
+                    count : group.length
+                });
+            }
+        }
+
+        chartStore.loadRawData(data);
     }
 
 });

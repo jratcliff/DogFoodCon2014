@@ -14,6 +14,7 @@ Ext.define('DogFood.view.sessions.GridModel', {
         sessions: {
             model       : 'DogFood.model.Session',
             autoLoad    : true,
+            groupField  : 'track',
 
             proxy: {
                 type    : 'rest',
@@ -22,6 +23,11 @@ Ext.define('DogFood.view.sessions.GridModel', {
                     type        : 'json',
                     rootProperty: 'results'
                 }
+            },
+
+            listeners   : {
+                update       : 'onSessionsStoreChange',
+                datachanged  : 'onSessionsStoreChange'
             }
         }
     }
