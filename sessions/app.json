@@ -40,7 +40,8 @@
      *      ]
      */
     "requires": [
-        "sencha-charts"
+        "sencha-charts",
+        "sencha-azure"
     ],
 
     /**
