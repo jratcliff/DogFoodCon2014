@@ -17,10 +17,21 @@ Ext.define('DogFood.view.sessions.GridModel', {
             autoLoad    : true,
             groupField  : 'track',
 
+            // azure proxy that pulls from the Azure Mobile Service's data Session table
+            // proxy: {
+            //     type                : 'azure',
+            //     tableName           : 'Sessions',
+            //     enablePagingParams  : false
+            // },
+
+            // normal rest proxy for the test data
             proxy: {
-                type                : 'azure',
-                tableName           : 'Sessions',
-                enablePagingParams  : false
+                type    : 'rest',
+                url     : 'resources/data/Sessions.json',
+                reader  : {
+                    type        : 'json',
+                    rootProperty: 'results'
+                }
             },
 
             listeners   : {
