@@ -29,10 +29,39 @@ Ext.define('DogFood.view.sessions.GridController', {
     },
 
     onSaveButtonClick: function (btn) {
-        var grid  = btn.up('grid'),
-            store = grid.getStore();
+        var me    = this,
+            grid  = btn.up('grid'),
+            store = grid.getStore(),
+            proxy = store.getProxy(),
+            url   = proxy.getUrl();
 
-        store.sync();
+        if (url.indexOf('.json') > 0) {
+            Ext.Msg.alert('Error', 'You are still configured to use the test proxy that loads the Session.json file.  You cannot save changes this way.  Change to the azure proxy in the GridModel.');
+            return;
+        }
+
+        if (!me.syncMask) {
+            me.syncMask = Ext.create('Ext.LoadMask', {
+                msg     : 'Syncing local data with remote....',
+                target  : grid
+            });
+        }
+
+        if (store.getModifiedRecords().length > 0 || store.getRemovedRecords().length > 0) {
+            me.syncMask.show();
+
+            store.sync({
+                success: function () {
+                    me.syncMask.hide();
+                },
+                failure: function () {
+                    me.syncMask.hide();
+                    Ext.Msg.alert('Error', 'There was an error saving the data.  Check the network tab to see what errors were return from the Azure Mobile Service.');
+                }
+            });
+        } else {
+            Ext.Msg.alert('No Changes', 'You must first make a change (add/delete/update) before you can do a save.');
+        }
     },
 
     onRefreshButtonClick: function (btn) {
