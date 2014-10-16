@@ -21,18 +21,26 @@ Ext.define("DogFood.view.sessions.Grid",{
     tbar: [
         {
             text    : 'Add',
+            scale   : 'medium',
+            glyph   : 'xf067@FontAwesome',
             handler : 'onAddButtonClick'
         },
         {
             text    : 'Delete',
+            scale   : 'medium',
+            glyph   : 'xf00d@FontAwesome',
             handler : 'onDeleteButtonClick'
         },
         {
             text    : 'Save',
+            scale   : 'medium',
+            glyph   : 'xf0c7@FontAwesome',
             handler : 'onSaveButtonClick'
         },
         {
             text    : 'Refresh',
+            scale   : 'medium',
+            glyph   : 'xf021@FontAwesome',
             handler : 'onRefreshButtonClick'
         }
     ],
