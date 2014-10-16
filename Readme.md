@@ -44,7 +44,30 @@ After you have completed these steps, you should be able to open the application
 If you do not have any data yet in your Sessions table just use the 'Add' button from the Grid and add data.  Make sure to click the 'Save' button so this data is pushed back to the Sessions table in your Azure Mobile Service.
 
 
+## Tip for hosting as an Azure Website
+In order to host the application on an Azure Website, you will need to add a web.config that defines how to handle .json files.  This is needed since the application will need to load the app.json file.  
+
+    Example web.config with a mimeMap definition for .json files:
+        <?xml version="1.0"?>
+
+        <configuration>
+            <system.webServer>
+                <staticContent>
+                    <mimeMap fileExtension=".json" mimeType="application/json" />
+             </staticContent>
+            </system.webServer>
+        </configuration> 
+
+To make sure this web.config file always gets copied to your build directory, you can add the following to your build.xml file.
+
+    <target name="-after-build">
+        <!-- copy the web.config to our build directory so we can keep this sync'd with the windows azure web site -->
+        <copy file="web.config" tofile="${app.output}/web.config" overwrite="true"/>
+    </target>
+
+
 ## Additional Resources
 - [Sencha Azure 2.0 Guide](http://docs.sencha.com/touch-azure/2.0.0/#!/guide)
-- [Azure Mobile Services documentation](http://azure.microsoft.com/en-us/documentation/services/mobile-services/)
 - [Sencha Azure 2.0 Blog Post](http://www.sencha.com/blog/using-the-new-sencha-extensions-for-microsoft-azure-2.0/)
+- [Azure Mobile Services documentation](http://azure.microsoft.com/en-us/documentation/services/mobile-services/)
+- [Azure Websites documentation](http://azure.microsoft.com/en-us/documentation/services/websites/)

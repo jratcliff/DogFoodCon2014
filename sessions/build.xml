@@ -39,4 +39,8 @@
             <target name="-after-build"/>
     -->
 
+    <target name="-after-build">
+        <!-- copy the web.config to our build directory so we can keep this sync'd with the windows azure web site -->
+        <copy file="web.config" tofile="${app.output}/web.config" overwrite="true"/>
+    </target>
 </project>
