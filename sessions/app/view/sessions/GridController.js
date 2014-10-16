@@ -28,6 +28,20 @@ Ext.define('DogFood.view.sessions.GridController', {
         }
     },
 
+    onSaveButtonClick: function (btn) {
+        var grid  = btn.up('grid'),
+            store = grid.getStore();
+
+        store.sync();
+    },
+
+    onRefreshButtonClick: function (btn) {
+        var grid  = btn.up('grid'),
+            store = grid.getStore();
+
+        store.reload();
+    },
+
     onSessionsStoreChange: function (store) {
         var me          = this,
             data        = [],

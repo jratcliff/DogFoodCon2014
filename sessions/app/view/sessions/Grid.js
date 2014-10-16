@@ -26,6 +26,14 @@ Ext.define("DogFood.view.sessions.Grid",{
         {
             text    : 'Delete',
             handler : 'onDeleteButtonClick'
+        },
+        {
+            text    : 'Save',
+            handler : 'onSaveButtonClick'
+        },
+        {
+            text    : 'Refresh',
+            handler : 'onRefreshButtonClick'
         }
     ],
 
