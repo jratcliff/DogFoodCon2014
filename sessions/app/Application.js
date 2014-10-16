@@ -8,11 +8,26 @@ Ext.define('DogFood.Application', {
     
     name: 'DogFood',
 
+    requires: [
+        'Ext.azure.Azure'
+    ],
+
     stores: [
         'SessionsByTrack'
     ],
     
-    launch: function () {
-        // TODO - Launch the application
+    
+    config: {
+        azure: {
+            appKey: 'myazureservice-access-key',
+            appUrl: 'myazure-service.azure-mobile.net'
+        }
+    },
+
+    launch: function() {
+
+        // Call Azure initialization
+        Ext.Azure.init(this.config.azure);
+
     }
 });
