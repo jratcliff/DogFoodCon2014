@@ -3,7 +3,8 @@ Ext.define('DogFood.view.sessions.GridModel', {
     alias: 'viewmodel.sessions-grid',
 
     requires: [
-        'DogFood.model.Session'
+        'DogFood.model.Session',
+        'Ext.azure.Proxy'
     ],
 
     data: {
@@ -17,12 +18,9 @@ Ext.define('DogFood.view.sessions.GridModel', {
             groupField  : 'track',
 
             proxy: {
-                type    : 'rest',
-                url     : 'resources/data/Sessions.json',
-                reader  : {
-                    type        : 'json',
-                    rootProperty: 'results'
-                }
+                type                : 'azure',
+                tableName           : 'Sessions',
+                enablePagingParams  : false
             },
 
             listeners   : {
